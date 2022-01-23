@@ -73,7 +73,7 @@ let createColorElement = (color) => {
 
 //Proximo nível do jogo
 let nextLevel = () => {
-    score++;
+    score = 100 + score;
     shuffleOrder();
 }
 
